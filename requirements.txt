@@ -1,0 +1,3 @@
+#どのライブラリを使うかを明示する
+streamlit
+Pillow
