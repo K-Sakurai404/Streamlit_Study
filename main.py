@@ -7,6 +7,9 @@ from PIL import Image
 from PIL import ImageDraw
 from PIL import ImageFont
 
+KEY = st.secrets.AzureApiKey.key
+ENDPOINT = st.secrets.AzureApiKey.endpoint
+
 headers = {
         "Content-Type": "application/octet-stream",
         "Ocp-Apim-Subscription-Key": KEY
