@@ -7,9 +7,6 @@ from PIL import Image
 from PIL import ImageDraw
 from PIL import ImageFont
 
-KEY = "3093cf2f7b3a4ebba43b0d76a5501527"
-ENDPOINT = "https://20220116sakurai.cognitiveservices.azure.com/"
-
 headers = {
         "Content-Type": "application/octet-stream",
         "Ocp-Apim-Subscription-Key": KEY
